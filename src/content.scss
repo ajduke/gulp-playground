@@ -1,0 +1,12 @@
+$primary-color: #fff000;
+.container{
+  height: 50px;
+  .content{
+    height: 50%;
+    color: $primary-color;
+  }
+  &.fix{
+    height: 100%;
+    position: fixed;
+  }
+}

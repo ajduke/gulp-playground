@@ -1,0 +1,1 @@
+console.log 'This file contains some sample scripts'
