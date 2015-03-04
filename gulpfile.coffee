@@ -2,6 +2,8 @@ gulp = require('gulp')
 sass= require('gulp-sass')
 coffee=  require('gulp-coffee')
 concat=  require('gulp-concat')
+runSequence = require('run-sequence')
+
 
 gulp.task('copy-files', ()->
   gulp.src('src/**/*.*')
@@ -28,6 +30,12 @@ gulp.task('scripts', ()->
     .pipe(coffee({bare: false}))
     .pipe(concat('scripts.js'))
     .pipe(gulp.dest('prod'))
+)
+
+
+gulp.task('build', ()->
+  runSequence('copy-files'
+  , ['copy-files','compile-sass', 'compile-coffee'])
 )
 
 gulp.task('auto', ()->
