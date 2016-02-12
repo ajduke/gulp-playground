@@ -1,0 +1,8 @@
+.container {
+  padding: 20px; }
+  .container .sub-container {
+    margin: 20px; }
+    .container .sub-container:hover {
+      background-color: #555; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzIjpbIm1haW4uc2NzcyJdLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGFpbmVyIHtcbiAgcGFkZGluZzogMjBweDtcbiAgLnN1Yi1jb250YWluZXIge1xuICAgIG1hcmdpbjogMjBweDtcbiAgICAmOmhvdmVyIHtcbiAgICAgIGJhY2tncm91bmQtY29sb3I6ICM1NTU7XG4gICAgfVxuICB9XG59Il0sIm1hcHBpbmdzIjoiQUFBQSxVQUFVLENBQUM7RUFDVCxPQUFPLEVBQUUsSUFBSyxHQU9mO0VBUkQsVUFBVSxDQUVSLGNBQWMsQ0FBQztJQUNiLE1BQU0sRUFBRSxJQUFLLEdBSWQ7SUFQSCxVQUFVLENBRVIsY0FBYyxBQUVYLE1BQU0sQ0FBQztNQUNOLGdCQUFnQixFQUFFLElBQUssR0FDeEIiLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */

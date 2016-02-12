@@ -1,0 +1,9 @@
+.container {
+  padding: 20px;
+  .sub-container {
+    margin: 20px;
+    &:hover {
+      background-color: #555;
+    }
+  }
+}
